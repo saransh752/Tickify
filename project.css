@@ -1,0 +1,117 @@
+body {
+  background-color: #f5f5f5;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;              
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.loginpage {
+  display: flex;
+  flex-direction: column;      
+  gap: 12px;
+  width: 350px;
+  background-color: white;    
+  padding: 40px 30px;          
+  border-radius: 12px;         
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+#email{
+    border-radius: 10px;
+    height: 20px;
+    padding: 10px;
+}
+#password{
+    border-radius: 10px;
+    height: 20px;
+    padding: 10px;
+}
+.Signin-btn{
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    
+}
+.sign-in{
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    color: blueviolet;
+    background-color: white;
+    border-color: blueviolet;
+}
+p{
+    font-style: oblique;
+}
+.guest{
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+    color: blueviolet;
+   
+}
+.login{
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+     background-color: rgb(61, 103, 171);
+    color: white;
+   
+
+}
+.signinA{
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+     background-color: black;
+       color: white;
+
+}
+.signinG{
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+}
+a{
+    color: rgb(61, 103, 171);
+    text-decoration: none;
+}
+.name{
+    background-color:blueviolet;
+    color: white;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    padding: 15px 0;
+    margin-left: 100px;
+}
+p{
+    position: fixed;
+    top: 0%;
+    left: 20%;
+}
+#search{
+    border-radius: 50px;
+    width: 850px;
+    height: 55px;
+    padding: 5px 40px ;
+    font-size: 16px;
+    border: 1px solid #ccc;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+background-color:#f5f5f5;
+position: fixed;
+top: 13%;
+left : 15%;
+outline: none;
+}
