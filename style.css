@@ -1,0 +1,291 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #0d0f1a;
+  color: #f5f5f5;
+}
+header {
+  background-color: #111322;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+}
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+}
+.logo-badge {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.nav a {
+  color: #e5e5e5;
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 1rem;
+}
+.nav a:hover {
+  color: #00b8ff;
+}
+.nav .cta {
+  background-color: #00b8ff;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.hero {
+  display: flex;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.hero .left {
+  flex: 1;
+}
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #aee7ff;
+  margin-bottom: 16px;
+}
+.hero .lead {
+  color: #c8c8c8;
+  margin-bottom: 22px;
+}
+.actions a {
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%; */
+}
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-outline {
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.btn-last {
+  background-color: #242637;
+  color: #fff;
+}
+
+.cat {
+  flex: 1;
+  min-width: 280px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 14px;
+}
+.cat .card {
+  background-color: #181b2e;
+ padding: 16px;
+  border-radius: 8px;
+}
+
+.cat .muted {
+  color: #a5a5a5;
+  font-size: 1rem;
+}
+.section {
+  margin-top: 60px;
+}
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.title-row h2 {
+  font-size: 1.4rem;
+  color: #00b8ff;
+}
+.sub {
+  color: #aaa;
+  font-size: 1rem;
+}
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+   overflow-x: auto;
+  
+  
+  
+}
+.card {
+  background-color: #15182a;
+  border-radius: 10px;
+  padding: 14px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+.thumb img {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.meta {
+  color: #a5a5a5;
+  font-size: 0.9rem;
+}
+
+.price {
+  color: #00b8ff;
+  font-weight: 600;
+}
+
+.premium-badge {
+  background-color: #2b2f50;
+  color: #00b8ff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+}
+.market {
+  background-color: #15182a;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.market .left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.market .small-card {
+  background-color: #0f1120;
+  border-radius: 10px;
+  padding: 16px;
+  min-width: 260px;
+}
+
+.market .muted {
+  color: #a5a5a5;
+}
+.site {
+  background-color: #0b0d15;
+  margin-top: 60px;
+  padding: 40px 20px;
+}
+
+.site .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flink {
+  display: flex;
+  color: #b0b0b0;
+  text-decoration: none;
+  margin: 6px 0;
+}
+
+.flink:hover {
+  color: #00b8ff;
+}
+
+.muted {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+}
+
+.btn-primary{
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 5px;
+}
+.site-footer {
+  background: #0b0b0c;
+  padding: 40px 0;
+  color: #dcdcdc;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+.footer-grid a {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.footer-grid a {
+  text-decoration: none;
+  color: #cfcfcf;
+}
+
+.footer-grid div:hover,
+.footer-grid a:hover {
+  color: #ffffff;
+  padding-bottom: 2px;
+  
+}
+.flink:hover{
+  text-decoration: underline;
+}

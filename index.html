@@ -1,56 +1,162 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel = "stylesheet" href="project.css">
-
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tickify — Global ticketing & events</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Orbitron:wght@600;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>Tickify is the world's top destination for ticket buyers and resellers. Prices may be higher or lower than face value. </p>
-    <div class="all">
-      
-    <div class="name">
-        Tickify
-    </div>
-    <div
-        class="sports">
-        Sports
-    </div>
-    <div
-        class="concerts"> Concerts
-    </div>
-    <div
-        class="theater">
-        Theater
-    </div>
-    <div class="festivals">
-        Festivals
-    </div>
-    <div class="cities">Top Cities</div>
-    <div class="Gift">
-        Gift Cards
-    </div>
-    <div class="Explore">
-        Explore
-    </div>
-    <div class="sell">
-        Sell
-    </div>
-    <div class="favourites">
-        Favourites
-    </div>
-    <div class="ticket">
-        My Tickets
-    </div>
-    <div class="SignIn">
-        Sign In
-    </div>
-    </div>
-    <label for ="search"></label>
-    <input type="text" id="search" placeholder="Search events, artists, teams, and more">
+  <header>
+    <div class="wrap">
+      <a class="logo" href="index.html">
+        <div class="logo-badge"><div class="logo-mark">⚡</div></div>
+        <div>
+          <div class="logo-text">Tickify</div>
+          <div style="font-size:1rem;margin-top:2px">Global Events & Ticketing</div>
+        </div>
+      </a>
 
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="sports.html">Sports</a>
+        <a href="concerts.html">Concerts</a>
+        <a href="movies.html">Movies</a>
+        <a href="market.html">Marketplace</a>
+        <a href="organize.html">Organize</a>
+        <a class="cta" href="sell.html">Sell Ticket</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="left">
+        <h1>Global platform for experiences — stadiums, screens, & live moments.</h1>
+        <p class="lead">Tickify connects fans and organizers worldwide. Book premium sports, global concerts, movies and manage events with enterprise-grade tools.</p>
+        <div class="actions">
+          <a class="btn-primary" href="events.html">Book Tickets</a>
+          <a class="btn-outline" href="market.html">Resell Tickets</a>
+          <a class="btn-last" href="organize.html">Organize Event</a>
+        </div>
+
+        <div style="margin-top:18px; display:flex; gap:12px; flex-wrap:wrap ; padding: 8px 12px;">
+          <div>Verified Sellers</div>
+          <div>Secure Escrow</div>
+          <div>Seat Maps</div>
+        </div>
+      </div>
+
+      <div class="cat">
+        <div class="card">
+          <strong>Premium Sports</strong><div class="muted" style="margin-top:6px">F1, UEFA, IPL & more</div>
+        </div>
+        <div class="card">
+          <strong>Live Concerts</strong><div class="muted" style="margin-top:6px">Global tours & festivals</div>
+        </div>
+        <div class="card">
+          <strong>Movies & Screenings</strong><div class="muted" style="margin-top:6px">Premieres & festivals</div>
+        </div>
+        <div class="card">
+          <strong>Organize</strong><div class="muted" style="margin-top:6px">Create & manage events</div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="title-row">
+        <div><h2>Featured & Trending</h2><p class="sub">Hand-picked global events</p></div>
+        <div class="muted">Updated daily</div>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+           
+          <a class="thumb" href="concerts.html"><img src="https://variety.com/wp-content/uploads/2024/11/Coldplay-tour-003-Anna-Lee-res.jpg?w=1000&h=563&crop=1" alt="Concert"></a>
+          <h3>Cold Play World Tour — Stadium Show</h3>
+          <div class="meta">Jun 8 • Olympiad Stadium  <span class="price"></span></div>
+          <div style="margin-top:8px"><span class="premium-badge">Premium</span></div>
+        </article>
+
+        <article class="card">
+          <a class="thumb" href="sports.html"><img src="https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/content/dam/fom-website/manual/races/Singapore/Start%202018%20Singapore.webp" alt="F1"></a>
+          <h3>F1 Grand Prix — Night Race</h3>
+          <div class="meta">May 22 • Singapore Circuit  <span class="price"></span></div>
+        </article>
+
+        <article class="card">
+          <a class="thumb" href="sports.html"><img src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg_2x/f_auto/primary/yliiod8ev54hdrnjnf3e" alt="Football"></a>
+          <h3>Champions League </h3>
+          <div class="meta">Aug 12 • National Arena   <br> <span class="price" style="padding: 10px"></span></div>
+        </article>
+        <article class="card">
+          <a class="thumb" href="movies.html"><img src="https://4kwallpapers.com/images/wallpapers/final-destination-3840x2160-22358.jpg" alt="Movie"></a>
+          <h3>World Premieres</h3>
+          <div class="meta">Dec 15 • Grand Cinema  <span class="price"></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="title-row"><div><h2>Popular Cities</h2><p class="sub">Find events in major cities</p></div><div class="muted">Worldwide</div></div>
+      <div style="display:flex; gap:14px; overflow:auto; padding-bottom:6px;">
+        <div class="card" style="min-width:240px"><div class="thumb"><img src="https://images.musement.com/cover/0002/42/view-on-manhattan-at-night-new-york-city_header-141511.jpeg" alt="NYC"></div><h3>New York</h3><div class="meta">Concerts • Sports • Film</div></div>
+        <div class="card" style="min-width:240px"><div class="thumb"><img src="https://www.andbeyond.com/wp-content/uploads/sites/5/Chhatrapati-Shivaji-Terminus-railway-station-mumbai.jpg" alt="Mumbai"></div><h3>Mumbai</h3><div class="meta">Bollywood premieres • Cricket</div></div>
+        <div class="card" style="min-width:240px"><div class="thumb"><img src="https://www.visitlondon.com/-/media/images/london/visit/general-london/westminster-at-dusk-london-1280x720.jpg?rev=3c05b9713c4b4405a7ab61aaeba53636&mw=800&hash=061A930869789795BC82B1A060E14562" alt="London"></div><h3>London</h3><div class="meta">Live tours • Theatre</div></div>
+        <div class="card" style="min-width:240px"><div class="thumb"><img src="https://frenchmoments.eu/wp-content/uploads/2014/08/Monaco-by-night-@kityyaya-via-Twenty20-scaled.jpg" alt="Monaco"></div><h3>Monaco</h3><div class="meta">F1 • Luxury events</div></div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="title-row"><div><h2>Marketplace</h2><p class="sub">Fast resales with escrow</p></div><div class="muted">Secure transfers</div></div>
+      <div class="market">
+        <div class="left">
+          <h3>List & Resell — Global reach</h3>
+          <p class="muted">Tickify protects buyers and sellers with identity verification and secure holds. Reach buyers globally with transparent pricing.</p>
+          <div style="margin-top:10px"><span style="padding:8px 12px;background:rgba(255,255,255,0.02)">Verified</span> <span style="padding:8px 12px;background:rgba(255,255,255,0.02)">Escrow</span></div>
+        </div>
+        <div class="small-card">
+          <div style="display:flex; gap:12px; align-items:center;">
+            <div style="width:64px; height:64px; overflow:hidden; border-radius:10px"><img src="https://images.seattletimes.com/wp-content/uploads/2021/10/102321_coldplaycpa_tzr.jpg?d=1200x630" style="width:100%;height:100%;object-fit:cover"></div>
+            <div><div style="font-weight:700">Resell: ColdBeat — 1 ticket</div><div class="muted">Section A • ₹6,200</div></div>
+          </div>
+          <div style="margin-top:12px;"><a class="btn-primary" href="market.html">Buy Now</a></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+ 
+  <footer class="site">
+    <div class="grid container">
+      <div>
+        <div style="display:flex;align-items:center;gap:10px"><div class="logo-badge" style="width:36px;height:36px"></div><strong>⚡Tickify</strong></div>
+        <div class="muted" style="margin-top:8px">© 2025 Tickify — Global events & ticketing</div>
+      </div>
+
+      <div>
+        <div style="font-weight:700;margin-bottom:8px">Explore</div>
+        <a class="flink" href="events.html">Events</a>
+        <a class="flink" href="sports.html">Sports</a>
+        <a class="flink" href="concerts.html">Concerts</a>
+        <a class="flink" href="movies.html">Movies</a>
+      </div>
+
+      <div>
+        <div style="font-weight:700;margin-bottom:8px">Company</div>
+        <a class="flink" href="organize.html">Organize</a>
+        <a class="flink" href="sell.html">Sell</a>
+        <a class="flink" href="contact.html">Contact</a>
+      </div>
+
+      <div>
+        <div style="font-weight:700;margin-bottom:8px">Follow</div>
+        <a class="flink" href="https://www.linkedin.com/in/saransh-mittal-172556395/">LinkedIn</a>
+        <a class="flink" href="https://www.instagram.com/ticki_fy?igsh=MTMxd2VrNXhnbzl0MQ==">Instagram</a>
+        <a class="flink" href="https://x.com/home">X</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
