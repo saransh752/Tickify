@@ -407,19 +407,6 @@ footer {
   background: #0c0f1a;
   padding: 60px 0;
 }
-
-footer .grid.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
-}
-footer .footer-left {
-  display: flex;
-}
-
 .organize-form {
   background: rgba(255,255,255,0.03);
   padding: 40px;
@@ -452,5 +439,61 @@ footer .footer-left {
   font-weight: 600;
 }
 
+footer {
+  background: #0c0f1a;
+  padding: 60px 0;
+}
 
+footer .grid.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+footer .footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+footer .footer-left strong {
+  font-size: 18px;
+}
+
+footer .footer-columns {
+  display: flex;
+  gap: 70px;
+}
+
+footer .footer-columns div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+footer .footer-columns div:first-child {
+  margin-left: 0;
+}
+
+footer .footer-heading {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+footer .flink {
+  color: #cfd3ff;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+footer .flink:hover {
+  color: white;
+  text-decoration: underline;
+  transform: translateX(4px);
+}
 
