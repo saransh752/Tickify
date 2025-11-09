@@ -1,27 +1,85 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Tickify — Organize</title>
-<link href="style.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Orbitron:wght@600;900&display=swap" rel="stylesheet"></head>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Tickify — Organize</title>
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Orbitron:wght@600;900&display=swap" rel="stylesheet">
+</head>
 <body>
   <div class="bg-ambient"></div>
-  <header class="header"><div class="wrap container"><a class="logo" href="index.html"><div class="logo-badge"><div class="logo-mark">⚡</div></div><div><div class="logo-text">Tickify</div></div></a>
-  <nav class="nav"><a href="index.html">Home</a><a href="events.html">Events</a><a href="sports.html">Sports</a><a href="concerts.html">Concerts</a> <a href="college.html">College Events</a><a href="movies.html">Movies</a><a href="organize.html">Organize</a><a class="cta" href="sell.html">Sell Ticket</a></nav></div></header>
+  <header class="header">
+    <div class="wrap container">
+      <a class="logo" href="index.html">
+        <div class="logo-badge">
+          <div class="logo-mark">⚡</div>
+        </div>
+        <div>
+          <div class="logo-text">Tickify</div>
+        </div>
+      </a>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="sports.html">Sports</a>
+    <a href="concerts.html">Concerts</a> 
+    <a href="college.html">College Events</a>
+    <a href="movies.html">Movies</a>
+    <a href="organize.html">Organize</a>
+    <a class="cta" href="sell.html">Sell Ticket</a>
+  </nav>
+</div>
+</header>
 
   <main class="container">
     <section class="section">
-      <div class="title-row"><div><h2>Organize an Event</h2><p class="sub">Create events, manage tickets & attendees</p></div><div class="muted">Organizer tools — demo</div></div>
+      <div class="title-row">
+        <div><h2>Organize an Event</h2>
+          <p class="sub">Create events, manage tickets & attendees</p>
+        </div>
+        <div class="muted">Organizer tools — demo</div>
+      </div>
 
       <div class="organize-grid">
-        <div class="form">
-          <label>Event Title</label><input placeholder="Name of your event" />
-          <label>Date & Time</label><input type="datetime-local" />
-          <label>Location</label><input placeholder="Venue or online link" />
-          <label>Category</label><select><option>Music</option><option>Sports</option><option>Movies</option><option>Workshop</option></select>
-          <label>Expected Attendance</label><input placeholder="e.g. 5000" />
-          <label>Short Description</label><textarea rows="5" placeholder="A short summary for your event"></textarea>
-          <div style="margin-top:12px"><a class="btn-primary" href="sell.html">Create Draft</a></div>
-        </div>
+        <form class="organize-form">
 
+  <div class="form-group">
+    <label>Event Title</label>
+    <input type="text" placeholder="Name of your event">
+  </div>
+
+  <div class="form-group">
+    <label>Date & Time</label>
+    <input type="datetime-local">
+  </div>
+
+  <div class="form-group">
+    <label>Location</label>
+    <input type="text" placeholder="Venue or online link">
+  </div>
+  <div class="form-row">
+    <div class="form-group">
+      <label>Category</label>
+      <select>
+        <option>Music</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Expected Attendance</label>
+      <input type="number" placeholder="e.g. 5000">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>Short Description</label>
+    <textarea rows="4"></textarea>
+  </div>
+
+  <button class="btn-primary">Create Draft</button>
+</form>
+        </div>
         <aside class="small-card">
           <h4 style="margin:0 0 8px">Organizer tips</h4>
           <ul class="muted" style="padding-left:16px; margin:0; line-height:1.6">
@@ -34,6 +92,40 @@
     </section>
   </main>
 
-  <footer class="site"><div class="footer-grid container"><div><div style="display:flex;align-items:center;gap:10px"><div class="logo-badge" style="width:36px;height:36px"></div><strong>Tickify</strong></div><div class="muted" style="margin-top:8px">© 2025 Tickify</div></div><div><div style="font-weight:700;color:var(--muted);margin-bottom:8px">Support</div><a class="flink" href="contact.html">Contact</a></div><div><div style="font-weight:700;color:var(--muted);margin-bottom:8px">Company</div><a class="flink" href="organize.html">Organize</a></div><div><div style="font-weight:700;color:var(--muted);margin-bottom:8px">Follow</div><a class="flink" href="#">LinkedIn</a></div></div></footer>
-</body>
+<footer >
+  <div class="grid container">
+
+    <div class="footer-left">
+      <div class="logo-badge" style="width:30px;height:30px;"></div>
+      <strong>⚡Tickify</strong>
+      <div class="muted">© 2025 Tickify — Global events & ticketing</div>
+    </div>
+
+    <div class="footer-columns">
+
+      <div>
+        <div class="footer-heading">Explore</div>
+        <a class="flink" href="events.html">Events</a>
+        <a class="flink" href="sports.html">Sports</a>
+        <a class="flink" href="concerts.html">Concerts</a>
+        <a class="flink" href="movies.html">Movies</a>
+      </div>
+      <div>
+        <div class="footer-heading">Company</div>
+        <a class="flink" href="organize.html">Organize</a>
+        <a class="flink" href="sell.html">Sell</a>
+        <a class="flink" href="contact.html">Contact</a>
+      </div>
+
+      <div>
+        <div class="footer-heading">Follow</div>
+        <a class="flink" href="https://www.linkedin.com">LinkedIn</a>
+        <a class="flink" href="https://www.instagram.com">Instagram</a>
+        <a class="flink" href="https://x.com">X</a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
 </html>

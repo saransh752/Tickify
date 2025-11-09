@@ -403,3 +403,54 @@ header {
 .nav{
   position: sticky;
 }
+footer {
+  background: #0c0f1a;
+  padding: 60px 0;
+}
+
+footer .grid.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+footer .footer-left {
+  display: flex;
+}
+
+.organize-form {
+  background: rgba(255,255,255,0.03);
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.organize-form input,
+.organize-form select,
+.organize-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(255,255,255,0.05);
+  color: white;
+  font-size: 15px;
+}
+.organize-form label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+
+
